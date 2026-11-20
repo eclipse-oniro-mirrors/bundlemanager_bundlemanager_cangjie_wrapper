@@ -19,6 +19,8 @@ import ohos.business_exception.AsyncCallback
 import ohos.labels.{APILevel, Hide}
 import std.deriving.Derive
 
+type ArrayBuffer = Array<Byte>
+
 @Derive[ToString, Equatable]
 @!APILevel[
     since: "26.1.0",
